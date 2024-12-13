@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Fish App</string>
+    <string name="sign_in">Sign In</string>
+    <string name="username">Username</string>
+    <string name="title_activity_user_dashboard">User_Dashboard</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="fish_categories">Fish Categories</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="clients_dashboard">Clients\' Dashboard</string>
+    <string name="rate_us">Rate Us</string>
+    <string name="fish_is_a_source_of_protein_a_nutrient_important_for_our_muscular_health_the_proteins_found_in_fish_is_of_high_biological_value_meaning_that_it_contains_all_the_essential_amino_acids_amino_acids_are_the_building_blocks_of_proteins_and_responsible_for_many_life_sustaining_processes_in_our_bodies_we_can_produce_some_ourselves_others_so_called_essential_amino_acids_have_to_be_taken_up_with_food_there_are_20_different_amino_acids_9_of_which_are_essential_ones_required_to_support_our_body_functions_in_the_right_proportion_besides_proteins_these_groups_supply_various_important_nutrients_such_as_vitamins_and_minerals">Fish is a source of protein, a nutrient important for our muscular health. The proteins found in fish is of high biological value, meaning that it contains all the essential amino acids Amino acids are the building blocks of proteins and responsible for many life-sustaining processes in our bodies. We can produce some ourselves, others (so-called essential amino acids) have to be taken up with food. There are 20 different amino acids, 9 of which are essential ones. required to support our body functions in the right proportion. Besides proteins, these groups supply various important nutrients such as vitamins and minerals.</string>
+    <string name="fish_and_its_nutritional_properties">Fish and its nutritional properties</string>
+    <string name="fish_selling_app">Fish Selling App</string>
+    <string name="information">Information</string>
+    <string name="submit">Submit</string>
+</resources>

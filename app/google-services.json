@@ -1,0 +1,30 @@
+{
+  "project_info": {
+    "project_number": "187096977332",
+    "firebase_url": "https://fish-candy-a4eb7-default-rtdb.firebaseio.com",
+    "project_id": "fish-candy-a4eb7",
+    "storage_bucket": "fish-candy-a4eb7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:187096977332:android:d6acb183ad8b55b2bd2ce1",
+        "android_client_info": {
+          "package_name": "com.example.fishapp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCvBAL6WC2m0CfE7FCxsLb4gHWcT6qI5d0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

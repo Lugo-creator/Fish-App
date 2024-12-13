@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent">
+
+<RelativeLayout
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".ui.category.Fish_Dashboard">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="25dp"
+        android:layout_marginTop="0dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="200dp"
+        android:orientation="horizontal"
+        android:background="@drawable/meatfish"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/fish_and_its_nutritional_properties"
+        android:textSize="35sp"
+        android:textColor="@color/white"
+        android:layout_marginTop="130sp"
+        android:layout_marginStart="15sp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="220dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:background="@drawable/catfish"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:background="@drawable/vietnamesefry"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:background="@drawable/tilapiafry"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="340dp"
+        android:gravity="center"
+        android:padding="15dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fish_is_a_source_of_protein_a_nutrient_important_for_our_muscular_health_the_proteins_found_in_fish_is_of_high_biological_value_meaning_that_it_contains_all_the_essential_amino_acids_amino_acids_are_the_building_blocks_of_proteins_and_responsible_for_many_life_sustaining_processes_in_our_bodies_we_can_produce_some_ourselves_others_so_called_essential_amino_acids_have_to_be_taken_up_with_food_there_are_20_different_amino_acids_9_of_which_are_essential_ones_required_to_support_our_body_functions_in_the_right_proportion_besides_proteins_these_groups_supply_various_important_nutrients_such_as_vitamins_and_minerals"
+            android:textColor="@color/black"
+            android:justificationMode="inter_word"
+            android:textSize="20sp"
+            />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="680dp"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:background="@drawable/cripsyfry"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:background="@drawable/indianfry"/>
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_margin="10sp"
+            android:background="@drawable/kyenamfry"/>
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="15dp">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Challenges Facing Fish Industry"
+                android:textSize="20sp"
+                android:textColor="@color/red"
+                android:layout_marginTop="800dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:justificationMode="inter_word"
+                android:text="Fish industry faces environmental threats such as overfishing, habitat destruction and climate change, economic challenges such as market fluctuations, IUU fishing and limited access, and social issues such as food security, gender inequality and community displacement around the world"
+                android:textSize="20sp"
+                android:textColor="@color/black"
+                android:layout_marginTop="20dp"/>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+</RelativeLayout>
+</ScrollView>

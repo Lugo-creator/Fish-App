@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.payment.payment">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/blue"/>
+
+            <TextView
+                android:id="@+id/boguetxt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Payment and delivery"
+                android:layout_marginTop="10dp"
+                android:textColor="#CC000000"
+                android:textSize="25sp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="20dp">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:src="@drawable/location"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="15sp"
+                    android:text="Shipment to be delivered to your current location"
+                    android:textColor="@color/red"
+                    android:layout_marginTop="5dp"
+                    android:padding="10dp"/>
+            </LinearLayout>
+            <com.google.android.material.textfield.TextInputLayout
+                android:id="@+id/textInputLayout"
+                style="@style/Widget.Material3.TextInputLayout.OutlinedBox.ExposedDropdownMenu"
+                android:layout_width="330dp"
+                android:layout_height="60dp"
+                android:layout_marginStart="25dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/blue"
+                android:hint="Choose another location?"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.807">
+
+                <AutoCompleteTextView
+                    android:id="@+id/autoCompleteTextView"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginEnd="30dp"
+                    android:layout_weight="1"
+                    android:inputType="none"
+                    android:textColorHint="@color/white"
+                    android:theme="@style/Widget.Material3.TextInputLayout.OutlinedBox" />
+            </com.google.android.material.textfield.TextInputLayout>
+            <EditText
+                android:id="@+id/phoneInput"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/item_background"
+                android:hint="Enter your m-pesa number"
+                android:inputType="phone"
+                android:padding="18dp"
+                android:textColor="@color/neon_blue"
+                android:textColorHint="@color/blue"
+                android:textSize="20sp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                android:textSize="16sp"
+                android:layout_marginTop="25dp"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="60dp"
+                android:gravity="end"
+                android:layout_marginTop="0dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/submitBtn"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="OK"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:paddingStart="50dp"
+                    android:paddingEnd="50dp"
+                    android:layout_marginStart="50dp"
+                    android:background="@color/green"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

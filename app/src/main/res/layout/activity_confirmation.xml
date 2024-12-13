@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.confirmation.confirmation">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardUseCompatPadding="true"
+        app:cardCornerRadius="10dp"
+        android:layout_marginTop="50dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="120dp"
+                android:background="@color/blue"/>
+            <RelativeLayout
+                android:layout_width="180dp"
+                android:layout_height="180dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="-75dp"
+                android:padding="2dp"
+                android:background="@color/white">
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"/>
+
+                <ImageView
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:src="@drawable/fish_b"/>
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TILL No:"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/green"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:padding="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="789-789"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@color/green"
+                    android:textSize="35sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="25dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="NAME:"
+                    android:layout_marginTop="0dp"
+                    android:textColor="@color/green"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"
+                    android:padding="15dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fish business"
+                    android:layout_marginTop="0dp"
+                    android:textColor="@color/green"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:layout_gravity="center"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="20dp"
+                android:layout_marginEnd="20dp"
+                android:layout_gravity="center"
+                android:textSize="20sp"
+                android:lineSpacingExtra="10dp"
+                android:textColor="@color/red"
+                android:layout_marginTop="25dp"
+                android:text="Go to your m-pesa menu and send the amount to the above till number, be sure to copy the transaction code and paste it below!"/>
+            <EditText
+                android:id="@+id/codeInput"
+                android:layout_width="300dp"
+                android:layout_height="match_parent"
+                android:layout_marginTop="32dp"
+                android:layout_marginStart="25dp"
+                android:background="@drawable/item_background"
+                android:hint="Paste code here..."
+                android:inputType="textNoSuggestions"
+                android:padding="18dp"
+                android:textColor="@color/neon_blue"
+                android:textColorHint="@color/blue"
+                android:textSize="20sp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginStart="0dp"
+                android:layout_marginEnd="130dp"
+                android:gravity="end"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/subBtn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text="@string/submit"
+                    android:paddingLeft="100dp"
+                    android:paddingRight="100dp"
+                    android:textAllCaps="false"
+                    android:textColor="@color/white"
+                    android:paddingStart="20dp"
+                    android:paddingEnd="20dp"
+                    android:background="@color/green"/>
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
